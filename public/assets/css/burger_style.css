@@ -1,0 +1,55 @@
+
+body{
+    background: url("../images/hamburger-wallpaper.png");
+    /* height: 10%; */
+    /*opacity: .2;*/
+    /* background-size: 250px; */
+    /* background-color: orange; */
+    /* opacity:0.4; */
+
+    
+    /* opacity: 0.4; */
+	height: 100%; 
+	background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* .container{
+    
+    background-color: orange;
+    
+    margin-top:0%;
+margin-left:0%;
+margin-right:0%;
+margin-bottom:0%;
+text-align: left;
+padding-left:10%;
+padding-bottom:8%;
+padding-top:6%;
+width:90%;
+opacity: .7;
+    
+    
+} */
+
+
+li {
+  padding: 5px;
+  margin: 5px;
+  background: #faebd7;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: aqua;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
