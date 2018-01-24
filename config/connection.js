@@ -2,7 +2,7 @@
 var mysql = require("mysql");
 var connection;
 
-
+//mysql://xk2s5c9dk8yyhgpq:hlvv59cflua8t9xu@yhrz9vns005e0734.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/coo1nnmg1rbwsdix
 if (process.env.JAWSDB_URL) {
     connection = mysql.createConnection(process.env.JAWSDB_URL);
 } else {
