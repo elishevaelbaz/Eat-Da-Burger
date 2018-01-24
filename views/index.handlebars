@@ -1,31 +1,38 @@
 
 <div class="container">
     <div class="row">
+    <div class="col-md-6 col-md-offset-3">
 
         
-<h1>Burgers!</h1>
+<h1 id="title">Burgers!</h1>
+</div>
 
+</div>
+
+<div class="row">
 <div class="col-md-6">
 
     <div class="uneaten">
         <h2>Burgers that are not eaten!</h2>
 
-        <ol>
+        
+      
         {{#each burgers}}
             {{#unless devoured}}
-            <li>
-            {{burger_name}}
+            <p>
+            
+            {{this.id}}. {{burger_name}}
 
-            {{!-- {{> burgers/burger-block devoured=true}} --}}
-            <button class="eat-burger" data-id="{{id}}" 
-            {{!-- data-newEat="{{devoured}}"  --}}
-            >
+      
+            <button class="eat-burger" data-id="{{id}}" >
                 EAT THE BURGER!
             </button>
-            </li>
+
+            </p>
+            
             {{/unless}}
         {{/each}}
-        </ol>
+        
     </div>
 
     </div>
@@ -34,17 +41,17 @@
     <div class="eaten">
         <h2>Burgers that are eaten!</h2>
 
-        <ol>
+        
         {{#each burgers}}
             {{#if devoured}}
-            <li>
-            {{burger_name}}
-            </li>
+            <p>
+             {{this.id}}. {{burger_name}}
+            </p>
 
-            {{!-- {{> burgers/burger-block devoured=false}} --}}
+            
             {{/if}}
         {{/each}}
-        </ol>
+        
     </div>
     </div>
 {{!-- close the row --}}
@@ -62,7 +69,7 @@
 
 
 
-        <button type="submit">Add Burger</button>
+        <button class="btn btn-primary" type="submit">Add Burger</button>
         </form>
     </div>
     </div>

@@ -1,6 +1,6 @@
 
 body{
-    background: url("../images/hamburger-wallpaper.png");
+    background: url("../images/hand-drawn-hamburger-wallpaper.png");
     /* height: 10%; */
     /*opacity: .2;*/
     /* background-size: 250px; */
@@ -13,6 +13,8 @@ body{
 	background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  color:white;
 }
 
 .container{
@@ -35,12 +37,39 @@ body{
     left: 60%;
 } */
 
-li, h2 {
+#title{
+  font-family: 'Risque', cursive;
+  text-align:center;
+  font-size: 100px;
+  /*background: rgba(250,235,215, 0.8);*/
+  width:500px;
+  /*background: rgba(250,235,215, 0.5);*/
+  /*(245, 245, 220)*/
+  /*background: rgba(245, 245, 220, 0.5);*/
+  color:navy;
+  text-shadow: 1px 0 0 #fff, 0 -1px 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff;
+
+}
+
+h1{
+   
+   
+}
+
+p{
+  font-size: 18px;
+}
+
+p, h2, .add-new {
+
   padding: 5px;
   margin: 5px;
-  background: rgba(250,235,215, 0.8);
-  background: #faebd7;
+  /*background: rgba(0,0,0, 0.4);*/
+  color:black;
+  text-shadow: 1px 0 0 #fff, 0 -1px 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff;
+  /*background: #faebd7;*/
   width: 300px;
+  font-weight: bold;
   /* float:left; */
   /* clear:both; */
 }
@@ -49,10 +78,10 @@ li, h2 {
   font-weight: bold;
 }
 
-.create-update-form {
+.create-form {
   padding: 5px;
   margin: 5px;
-  background: aqua;
+  
 }
 
 .form-group {
