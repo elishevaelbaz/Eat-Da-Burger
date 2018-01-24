@@ -19,7 +19,7 @@ body{
     
     /*background-color: orange;*/
     
-  background: rgba(76, 175, 80, 0.3) 
+  /*background: rgba(76, 175, 80, 0.3) */
     
     
 } 
@@ -38,6 +38,7 @@ body{
 li, h2 {
   padding: 5px;
   margin: 5px;
+  background: rgba(250,235,215, 0.8);
   background: #faebd7;
   width: 300px;
   /* float:left; */
