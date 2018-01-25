@@ -22,7 +22,7 @@ See package.json for the node packages used.
 
 * The app stores every burger in a database, whether devoured or not.
 
-![Eat-Da-Burger](public/assets/images/demo.PNG)
+![Eat-Da-Burger](public/assets/images/demo2.PNG)
 
 
 
