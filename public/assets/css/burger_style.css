@@ -1,14 +1,6 @@
 
 body{
-    background: url("../images/hand-drawn-hamburger-wallpaper.png");
-    /* height: 10%; */
-    /*opacity: .2;*/
-    /* background-size: 250px; */
-    /* background-color: orange; */
-     /*opacity:0.4; */
-
-    
-    /* opacity: 0.4; */
+  background: url("../images/hand-drawn-hamburger-wallpaper.png");
 	height: 100%; 
 	background-position: center;
   background-repeat: no-repeat;
@@ -17,65 +9,71 @@ body{
   color:white;
 }
 
-.container{
-    
-    /*background-color: orange;*/
-    
-  /*background: rgba(76, 175, 80, 0.3) */
-    
-    
-} 
 
-/* .uneaten{
-    position:relative;
-
-}
-
-.eaten{
-    position:absolute;
-    top: 0;
-    left: 60%;
-} */
 
 #title{
-  font-family: 'Risque', cursive;
+  font-family: 'Acme', sans-serif;
   text-align:center;
   font-size: 100px;
-  /*background: rgba(250,235,215, 0.8);*/
-  width:500px;
-  /*background: rgba(250,235,215, 0.5);*/
-  /*(245, 245, 220)*/
-  /*background: rgba(245, 245, 220, 0.5);*/
-  color:navy;
+  color:#428bca;
   text-shadow: 1px 0 0 #fff, 0 -1px 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff;
+}
+
+p, li{
+  font-size: 20px;
+  margin-bottom:25px;
 
 }
 
-h1{
-   
-   
+h2{
+
+  font-weight: bold !important;
+  padding-bottom:10px;
+  text-align:center;
 }
 
-p{
-  font-size: 18px;
+label {
+  font-weight: bold;
+  font-size:16px;
 }
 
-p, h2, .add-new {
-
-  padding: 5px;
+.uneaten, .eaten{
+   padding: 5px;
   margin: 5px;
-  /*background: rgba(0,0,0, 0.4);*/
-  color:black;
-  text-shadow: 1px 0 0 #fff, 0 -1px 0 #fff, 0 1px 0 #fff, -1px 0 0 #fff;
-  /*background: #faebd7;*/
-  width: 300px;
+  background: rgba(0,0,0, 0.4);
+  background: rgba(250,235,215, 0.9);
+  width: 400px;
   font-weight: bold;
-  /* float:left; */
-  /* clear:both; */
 }
 
-.label {
-  font-weight: bold;
+
+.add-new {
+
+  background: rgba(250,235,215, 0.9);
+  margin-top:10px;
+  margin-left:100px;
+  width:350px;
+  padding-top:2px;
+  padding-bottom:9px;  
+}
+
+.form-group{
+  text-align: center;
+}
+
+#submit-button{
+  margin-left:40%;
+  padding:10px;
+}
+
+#eat-burger{
+    /*margin-left:35%;*/
+    position:absolute;
+    right:90px;
+    /*left:-40px;*/
+    padding:10px;
+    margin-bottom:5px;
+
 }
 
 .create-form {
