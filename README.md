@@ -6,7 +6,7 @@
 
 This is  a burger logger that usesMySQL, Node, Express, Handlebars and a homemade ORM. It follows the MVC design pattern, uses Node and MySQL to query and route data, and Handlebars to generate the HTML.
 
-The app is deployed on Heroku at https://obscure-shelf-97615.herokuapp.com/
+The app is deployed on Heroku at https://protected-harbor-66677.herokuapp.com/
 
 
 ### Node Packages
